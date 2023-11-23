@@ -1,4 +1,4 @@
-package com.codergm;
+package com.codergm.demo;
 
 import com.codergm.keydatestructures.TemperatureRecord;
 

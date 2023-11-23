@@ -1,4 +1,4 @@
-package com.codergm;
+package com.codergm.demo;
 
 import com.codergm.keydatestructures.TemperatureRecord;
 
@@ -13,6 +13,7 @@ public class StackDemo {
         TemperatureRecord t3 = new TemperatureRecord(-3.8, "London ", LocalDateTime.now());
         stack.push(t1);
         stack.push(t2);
+
         stack.push(t3);
 
         System.out.println(stack.pop());
