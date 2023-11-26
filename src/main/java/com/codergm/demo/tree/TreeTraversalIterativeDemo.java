@@ -1,4 +1,4 @@
-package com.codergm.demo;
+package com.codergm.demo.tree;
 
 import com.codergm.tree.TreeNode;
 
