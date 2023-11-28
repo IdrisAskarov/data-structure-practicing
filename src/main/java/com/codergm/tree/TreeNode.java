@@ -1,6 +1,7 @@
 package com.codergm.tree;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
 public class TreeNode {
@@ -19,5 +20,10 @@ public class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    public boolean equals(Object obj){
+        if(!(obj instanceof TreeNode)) return false;
+        return ((TreeNode)obj).getVal() == this.getVal();
     }
 }
